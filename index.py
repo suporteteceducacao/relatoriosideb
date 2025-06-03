@@ -29,8 +29,8 @@ def load_data(file_path):
 
 # Carregamento dos dados
 try:
-    df_ideb = load_data('ideb/xls/ideb.xlsx')
-    df_saeb = load_data('ideb/xls/saeb.xlsx')
+    df_ideb = load_data('xls/ideb.xlsx')
+    df_saeb = load_data('xls/saeb.xlsx')
 
     # Processamento dos dados
     df_ideb.columns = df_ideb.columns.str.strip()
