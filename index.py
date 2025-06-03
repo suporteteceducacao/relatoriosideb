@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # Adicionando o logotipo na barra lateral
-logo_url = 'Resultados_diagnosticas/img/Logomarca da Secretaria de Educação 2021.png'
+logo_url = 'relatoriosideb/img/Logomarca da Secretaria de Educação 2021.png'
 st.sidebar.image(logo_url, width=270)
 
 # Título principal do aplicativo
